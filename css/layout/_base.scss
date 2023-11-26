@@ -1,0 +1,42 @@
+// Site Bases
+
+$sm  : 576px;
+$md  : 768px;
+$lg  : 992px;
+$xl  : 1200px;
+$xxl : 1400px;
+
+
+$font-family-en : "sf-pro-regular" ;
+$font-family-ar : "FrutigerLTW20-55Roman";
+
+
+body,html{
+    font-family: $font-family-en;
+    color: $text_color;
+} 
+a { 
+    text-decoration: none;
+    transition: .3s all ease;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: var(--white);
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: $primary;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: $primary;
+}

@@ -1,0 +1,72 @@
+footer#footer {
+    .container {
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+        padding-top: 48px;
+        .ft-lists {
+            p {
+                @include default-link(rgb(0 0 0 / 80%), 16px, 22px);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+                margin-bottom: 12px;
+                padding-bottom: 12px;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                li {
+                    a {
+                        @include default-link(var(--black-half), 14px, 22px);
+                        display: block;
+                        margin: 6px 0;
+                        &:hover {
+                            color: var(--primary);
+                        }
+                    }
+                }
+            }
+        }
+        .ft-newsletter {
+            p {
+                @include default-link(rgb(0 0 0 / 80%), 16px, 22px);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+                margin-bottom: 12px;
+                padding-bottom: 12px;
+            }
+            span {
+                @include default-link(var(--black-half), 14px, 22px);
+                display: block;
+                margin: 6px 0 20px;
+            }
+            form {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 12px;
+                input[type="email"] {
+                    width: 72%;
+                    border-radius: 5px;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    padding: 5px 10px;
+                }
+                button {
+                    border: none !important;
+                    outline: none;
+                    background: var(--primary);
+                    color: var(--white) !important;
+                    border-radius: 5px;
+                    width: 25%;
+                }
+            }
+            strong {
+                font-weight: 400;
+                color: var(--black-half)
+            }
+        }
+        .copyrights {
+            text-align: center;
+            border-top: 1px solid rgb(0 0 0 / 6%);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 30px;
+        }
+    }
+}

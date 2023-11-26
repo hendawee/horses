@@ -1,0 +1,56 @@
+// English Fonts
+
+@font-face {
+    font-family: 'sf-pro';
+    src: url('../fonts/sf-pro-text-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sf-pro-text-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf-pro';
+    src: url('../fonts/sf-pro-text-medium-webfont.woff2') format('woff2'),
+         url('../fonts/sf-pro-text-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sf-pro-regular';
+    src: url('../fonts/sf-pro-text-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sf-pro-text-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sf-pro';
+    src: url('../fonts/sf-pro-text-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/sf-pro-text-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+// Arabic Fonts
+@font-face {
+    font-family: "FrutigerLTW20-45Light";
+    src: url("../fonts/ef2f3f3e-69fc-4400-a009-eb3382bc36fe.eot?iefix") format("eot")}
+@font-face {
+    font-family: "FrutigerLTW20-45Light";
+    src: url("../fonts/ef2f3f3e-69fc-4400-a009-eb3382bc36fe.eot?iefix");
+    src: url("../fonts/18c95095-c66a-4130-b4d0-6f61140948c2.woff") format("woff"),url("../fonts/04edf5de-5deb-4df4-9a69-c90aad2d7604.ttf") format("truetype"),url("../fonts/656ff0d6-e4fb-43dd-8288-466a0edd1530.svg#656ff0d6-e4fb-43dd-8288-466a0edd1530") format("svg")}
+@font-face {
+    font-family: "FrutigerLTW20-55Roman";
+    src: url("../fonts/70e7445b-bf3a-4454-afcb-8751be709d1f.eot?iefix") format("eot")}
+@font-face {
+    font-family: "FrutigerLTW20-55Roman";
+    src: url("../fonts/70e7445b-bf3a-4454-afcb-8751be709d1f.eot?iefix");
+    src: url("../fonts/d05c6c4a-9731-44a4-b39d-0456c0757826.woff") format("woff"),url("../fonts/5fa9f06e-4a5b-48c5-8f33-bf2064a4cf91.ttf") format("truetype"),url("../fonts/d06bdbba-ef62-455e-a7e3-33085f73bb05.svg#d06bdbba-ef62-455e-a7e3-33085f73bb05") format("svg")}
+
+    
